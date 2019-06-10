@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+
+{% block pagehead %}
+  <title>fr3</title>
+  <style>
+    .tag-size{
+      width: 100px
+    }
+  </style>
+{% endblock %}
+
+{% block content %}
+<section class="hero body is-fullheight">
+  <div class="hero-body">
+    <div class="container">
+      {% for info in members %}
+      <section class="section" style="background: white;">
+        <div class="container ">
+          <div class="tile is-ancestor">
+            <div class="tile is-parent is-2">
+              <article class="tile is-child has-text-centered">
+                
+                  <img width="64" height="64" src="../res/assets/profile/{{info['profile-icon']}}.svg">
+                
+                <p>
+                  <span class="tag-size"><i class="fas fa-map-marker-alt has-text-danger"></i> {{info['location']}}</span><br>
+                  <span class="tag is-dark tag-size">years exp: {{info['years-exp']}}</span><br>
+                  <span class="tag is-dark tag-size">{{info['time']}}</span><br>
+                </p>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child">
+                <p class="title">{{info['first-name']}} {{info['last-name']}}</p>
+                <p class="subtitle"><a href="../{{info['uname']}}/">@{{info['uname']}}</a></p>
+                <p>{{info['descrip']}}</p>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child">
+                <p class="title"></p>
+                <p class="subtitle"></p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section><br>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endblock %}
+
+<!--
+
+<section class="section" style="background: white;">
+        <div class="container ">
+          <article class="media">
+            <figure class="media-left">
+              <p class="image is-64x64">
+                <img src="../res/assets/profile/{{info['profile-icon']}}.svg">
+              </p>
+            </figure>
+            <div class="media-content">
+              <div class="content">
+                <p>
+                  <strong style="font-size: 25px;">{{info['first-name']}} {{info['last-name']}}</strong>  
+                  <small>
+                    <span class="tag is-dark"></i>{{info['location']}} </span>
+                    <span class="tag is-dark">years exp: {{info['years-exp']}}</span>
+                  </small> 
+                  <br>
+                  {{info['descrip']}}
+                </p>
+              </div>
+              <nav class="level is-mobile">
+                <div class="level-left">
+                  <a class="level-item">
+                    <span class="icon is-small"><i class="fab fa-linkedin"></i></span>
+                  </a>
+                  <a class="level-item">
+                    <span class="icon is-small"><i class="fas fa-external-link-square-alt"></i></span>
+                  </a>
+                </div>
+              </nav>
+              <a>@{{info['uname']}}</a>
+            </div>
+          </article>
+        </div>
+      </section>
+      <br>
+
+  -->

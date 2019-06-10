@@ -1,0 +1,109 @@
+{% extends "base.html" %}
+
+{% block pagehead %}
+  <title></title>
+{% endblock %}
+
+{% block content %}
+<section class="hero body is-fullheight">
+  <div class="hero-body">
+    <div class="container">
+      <section class="section" style="background: white;">
+        <div class="container ">
+		    	<div class="tile is-ancestor">
+			        <div class="tile is-parent">
+			          <article class="tile is-child has-text-centered">
+			              <img width="200" height="200" src="../res/assets/profile/{{info['profile-icon']}}.svg">
+			          </article>
+			        </div>
+			    </div>
+			    <div class="tile is-ancestor">
+			        <div class="tile is-parent">
+			          <article class="tile is-child has-text-centered">
+			              <p class="title">{{info['first-name']}} {{info['last-name']}}</p>
+	                	  <p class="">{{info['tag-line']}}</p>
+	                	  <p class="subtitle">{{info['descrip']}}</p>
+			              <span class=""><i class="fas fa-map-marker-alt has-text-danger"></i> {{info['location']}}</span>
+			          </article>
+			        </div>
+			    </div>
+			    <div class="tile is-ancestor">
+			    	 <div class="tile is-parent">
+			          <article class="tile is-child has-text-centered">
+	                    
+			          </article>
+			        </div>
+			        <div class="tile is-parent">
+			          <article class="tile is-child has-text-centered">
+	                      <div class="field is-grouped is-grouped-multiline">
+												  <div class="control">
+												    <div class="tags has-addons">
+												      <span class="tag is-dark">years</span>
+												      <span class="tag is-info">{{info['years-exp']}}</span>
+												    </div>
+												  </div>
+
+												  <div class="control">
+												    <div class="tags has-addons">
+												      <span class="tag is-dark">time</span>
+												      <span class="tag is-success">{{info['time']}}</span>
+												    </div>
+												  </div>
+
+												  <div class="control">
+												    <div class="tags has-addons">
+												      <span class="tag is-dark">projects count</span>
+												      <span class="tag is-primary">{{info['projects-count']}}</span>
+												    </div>
+												  </div>
+												</div>
+			          </article>
+			        </div>
+			        <div class="tile is-parent">
+			          <article class="tile is-child has-text-centered">
+	                    
+			          </article>
+			        </div>
+			    </div>
+			    <div class="tile is-ancestor">
+			    	<div class="tile is-parent is-horizontal is-2">
+			          <article class="tile is-child has-text-centered">
+			          	
+			          </article>
+			        </div>
+			        <div class="tile is-parent is-horizontal is-10">
+			          <article class="tile is-child has-text-centered is-10">
+			          	<p class="section">
+			              <table class="table is-fullwidth">
+										  <thead>
+										    <tr>
+										      <th>Skill</th>
+										      <th>Score/5</th>
+										    </tr>
+										  </thead>
+										  <tbody>
+										  	{% for skill in skills %}
+										    <tr>
+										      <td>{{skill}}</td>
+										      <td>{{skills[skill]}}</td>
+										    </tr>
+										    {% endfor %}
+										  </tbody>
+										</table>
+									</p>
+			          </article>
+			        </div>
+			        <div class="tile is-parent is-horizontal">
+			          <article class="tile is-child has-text-centered">
+			          	
+			          </article>
+			        </div>
+			    </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</section>
+{% endblock %}
+
+

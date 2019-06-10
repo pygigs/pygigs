@@ -1,0 +1,30 @@
+{
+	"first-name":"John2",
+	"last-name":"Doe2",
+	"uname":"jdoe2",
+	"time":"full",
+	"profile-icon":"random",
+	"location":"England",
+	"tag-line":"python for life",
+	"descrip":"soft dev likes to soft dev likes to soft dev likes to",
+	"years-exp":"3",
+	"skills":
+	{
+		"web scraping":"0",
+		"web dev":"0",
+		"data sci":"0",
+		"machine learning":"0",
+		"deep learning":"0",
+		"algorithms":"0",
+		"database":"0",
+		"networking":"0",
+		"asyncio":"0",
+		"cv":"0",
+		"desktop":"0"
+	},
+	"projects-count":"0",
+	"github":"",
+	"linked-in":"",
+	"personal-website":""
+
+}

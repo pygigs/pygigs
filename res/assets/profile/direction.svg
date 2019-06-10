@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="512" height="512" viewBox="0 0 128 128" style="enable-background:new 0 0 128 128;" xml:space="preserve">
+<g>
+	<circle style="fill:#B2E3FF;" cx="64" cy="64" r="64"/>
+	<path style="fill:#99602E;" d="M104.586,60.586C105.363,61.363,105.1,62,104,62H41.369c-1.1,0-2.645-0.63-3.43-1.398L23.43,46.4   c-0.787-0.771-0.787-2.029,0-2.799L37.939,29.4c0.785-0.771,2.33-1.399,3.43-1.399H104c1.1,0,1.363,0.638,0.586,1.414   L90.414,43.587c-0.777,0.776-0.777,2.052,0,2.828L104.586,60.586z"/>
+	<path style="fill:#CC803D;" d="M42,60c-1.1,0-2.637-0.637-3.414-1.414L26.414,46.414c-0.777-0.777-0.777-2.051,0-2.828   l12.172-12.172C39.363,30.637,40.9,30,42,30h57c1.1,0,1.363,0.637,0.586,1.414L87.414,43.586c-0.777,0.777-0.777,2.051,0,2.828   l12.172,12.172C100.363,59.363,100.1,60,99,60H42z"/>
+	<rect x="53" y="62" style="fill:#99602E;" width="22" height="52"/>
+	<rect x="55" y="62" style="fill:#CC803D;" width="18" height="52"/>
+	<path style="fill:#99602E;" d="M75,28V17c0-1.65-1.35-3-3-3H56c-1.65,0-3,1.35-3,3v11H75z"/>
+	<path style="fill:#CC803D;" d="M55,28V17c0-0.542,0.458-1,1-1h16c0.542,0,1,0.458,1,1v11H55z"/>
+	<path style="fill:#99602E;" d="M24.072,114c10.947,8.754,24.82,14,39.928,14c15.107,0,28.98-5.246,39.928-14H24.072z"/>
+	
+		<polygon style="fill:none;stroke:#F5F5F5;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="   43,38 36,45 43,52  "/>
+	
+		<polyline style="fill:none;stroke:#F5F5F5;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="   81,40 76,45 81,50  "/>
+	
+		<polyline style="fill:none;stroke:#F5F5F5;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="   75,40 70,45 75,50  "/>
+	
+		<line style="fill:none;stroke:#F5F5F5;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" x1="43" y1="45" x2="81" y2="45"/>
+	<rect x="53" y="62" style="fill:#805026;" width="2" height="2"/>
+	<rect x="73" y="62" style="fill:#805026;" width="2" height="2"/>
+	<rect x="55" y="62" style="fill:#BF7839;" width="18" height="2"/>
+</g>
+</svg>
