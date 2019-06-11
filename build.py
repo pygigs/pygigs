@@ -38,6 +38,7 @@ def genMemberPages():
         generate('member_page.html', info['uname']+'/index.html', info=info, append='../', skills=info['skills'])
 
 def genListing():
+    random.shuffle(meminfo)
     generate('list.html', 'list/index.html', append='../', members=meminfo)
 
 def genContact():
