@@ -1,13 +1,13 @@
 {
-	"first-name":"Henry",
-	"last-name":"Ezedinma",
-	"uname":"henryez",
-	"time":"full",
+	"first-name":"",
+	"last-name":"",
+	"uname":"",
+	"time":"",
 	"profile-icon":"random",
-	"location":"Nigeria",
+	"location":"",
 	"tag-line":"python for life",
-	"descrip":"",
-	"years-exp":"",
+	"descrip":"---",
+	"years-exp":"---",
 	"best-in":"---",
 	"skills":
 	{
@@ -23,8 +23,8 @@
 		"cv":"0",
 		"desktop":"0"
 	},
-	"projects-count":"-",
-	"github":"https://github.com/code2exe",
-	"linked-in":"https://www.linkedin.com/in/henryezed",
+	"projects-count":"---",
+	"github":"",
+	"linked-in":"",
 	"personal-website":""
 }
