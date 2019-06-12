@@ -1,0 +1,30 @@
+{
+	"first-name":"Arnab",
+	"last-name":"Biswas",
+	"uname":"arnab",
+	"time":"part",
+	"profile-icon":"random",
+	"location":"India",
+	"tag-line":"power comes in need not in demand",
+	"descrip":"I love to code",
+	"years-exp":"1",
+	"best-in":"web scraping",
+	"skills":
+	{
+		"web scraping":"1",
+		"web dev":"1",
+		"data sci":"1",
+		"machine learning":"0",
+		"deep learning":"0",
+		"algorithms":"1",
+		"database":"1",
+		"networking":"1",
+		"asyncio":"1",
+		"cv":"1",
+		"desktop":"1"
+	},
+	"projects-count":"9",
+	"github":"https://github.com/Lucky-Kumar",
+	"linked-in":"https://www.linkedin.com/in/arnab-biswas-2a43a7135/",
+	"personal-website":"http://www.cryptolab.live"
+}

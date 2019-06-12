@@ -1,0 +1,30 @@
+{
+	"first-name":"Henry",
+	"last-name":"Ezedinma",
+	"uname":"henryez",
+	"time":"full",
+	"profile-icon":"random",
+	"location":"Nigeria",
+	"tag-line":"python for life",
+	"descrip":"",
+	"years-exp":"",
+	"best-in":"---",
+	"skills":
+	{
+		"web scraping":"1",
+		"web dev":"1",
+		"data sci":"1",
+		"machine learning":"0",
+		"deep learning":"0",
+		"algorithms":"1",
+		"database":"1",
+		"networking":"1",
+		"asyncio":"1",
+		"cv":"1",
+		"desktop":"1"
+	},
+	"projects-count":"-",
+	"github":"https://github.com/code2exe",
+	"linked-in":"https://www.linkedin.com/in/henryezed",
+	"personal-website":""
+}
