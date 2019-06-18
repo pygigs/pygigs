@@ -11,17 +11,17 @@
 	"best-in":"core python",
 	"skills":
 	{
-		"web scraping":"3",
-		"web dev":"3",
-		"data sci":"2",
-		"machine learning":"2",
-		"deep learning":"1",
-		"algorithms":"3",
-		"database":"3",
-		"networking":"3",
-		"asyncio":"2",
-		"cv":"2",
-		"desktop":"3"
+		"web scraping":"7",
+		"web dev":"7",
+		"data sci":"4",
+		"machine learning":"4",
+		"deep learning":"3",
+		"algorithms":"6",
+		"database":"6",
+		"networking":"6",
+		"asyncio":"5",
+		"cv":"5",
+		"desktop":"7"
 	},
 	"projects-count":"10+",
 	"github":"https://github.com/nirajKpanda",
